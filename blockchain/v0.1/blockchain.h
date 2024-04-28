@@ -15,7 +15,6 @@
 #include "../../crypto/hblk_crypto.h"
 
 
-
 #define GENESIS_HASH "\xc5\x2c\x26\xc8\xb5\x46\x16\x39\x63\x5d\x8e\xdf\x2a\x97\xd4\x8d\x0c\x8e\x00\x09\xc8\x17\xf2\xb1\xd3\xd7\xff\x2f\x04\x51\x58\x03"
 
 
@@ -130,28 +129,28 @@ typedef struct block_s
 
 
 
-/* task 0 */
+/* blockchain_create.c */
 blockchain_t *blockchain_create(void);
 
-/* task 1 */
+/* block_create.c */
 block_t *block_create(block_t const *prev, int8_t const *data,
 		      uint32_t data_len);
 
-/* task 2 */
+/* block_destroy.c */
 void block_destroy(block_t *block);
 
-/* task 3 */
+/* blockchain_destroy.c */
 void blockchain_destroy(blockchain_t *blockchain);
 
-/* task 4 */
+/* block_hash.c */
 uint8_t *block_hash(block_t const *block,
 		    uint8_t hash_buf[SHA256_DIGEST_LENGTH]);
 
-/* task 5 */
+/* blockchain_serialize.c */
 int write_block_to_file(llist_node_t node, unsigned int idx, void *arg);
 int blockchain_serialize(blockchain_t const *blockchain, char const *path);
 
-/* task 6 */
+/* blockchain_deserialize.c */
 void byteSwap(uint8_t *bytesPtr, size_t byteCount);
 int deserialize_attr(int fileDescriptor, int encodingFlag,
 		     void *attributePtr, size_t attributeSize);
@@ -161,7 +160,7 @@ int read_blocks_into_blockchain(int fileDescriptor, uint8_t encodingFlag,
 				blockchain_t *blockchain);
 blockchain_t *blockchain_deserialize(char const *path);
 
-/* task 7 */
+/* block_is_valid.c */
 int block_is_valid(block_t const *block, block_t const *prev_block);
 
 
