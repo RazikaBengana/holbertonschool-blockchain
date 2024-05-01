@@ -45,30 +45,30 @@ typedef struct sig_s
 
 
 
-/* task 0 */
+/* sha256.c */
 uint8_t *sha256(int8_t const *s, size_t len,
 		uint8_t digest[SHA256_DIGEST_LENGTH]);
 
-/* task 1 */
+/* ec_create.c */
 EC_KEY *ec_create(void);
 
-/* task 2 */
+/* ec_to_pub.c */
 uint8_t *ec_to_pub(EC_KEY const *key, uint8_t pub[EC_PUB_LEN]);
 
-/* task 3 */
+/* ec_from_pub.c */
 EC_KEY *ec_from_pub(uint8_t const pub[EC_PUB_LEN]);
 
-/* task 4 */
+/* ec_save.c */
 int ec_save(EC_KEY *key, char const *folder);
 
-/* task 5 */
+/* ec_load.c */
 EC_KEY *ec_load(char const *folder);
 
-/* task 6 */
+/* ec_sign.c */
 uint8_t *ec_sign(EC_KEY const *key, uint8_t const *msg,
 		 size_t msglen, sig_t *sig);
 
-/* task 7 */
+/* ec_verify.c */
 int ec_verify(EC_KEY const *key, uint8_t const *msg,
 	      size_t msglen, sig_t const *sig);
 
