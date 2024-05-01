@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "blockchain.h"
+#include "../../blockchain.h"
 
 void _transaction_print(transaction_t const *transaction);
 

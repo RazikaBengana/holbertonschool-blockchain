@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-#include "transaction.h"
+#include "../transaction.h"
 
 /**
  * main - Entry point
