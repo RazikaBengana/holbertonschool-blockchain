@@ -161,6 +161,8 @@ typedef struct block_header_s
 
 
 /* blockchain_create.c */
+blockchain_t *init_blockchain_structure(void);
+int add_genesis_block(blockchain_t *blockchain);
 blockchain_t *blockchain_create(void);
 
 /* block_create.c */
@@ -178,12 +180,17 @@ uint8_t *block_hash(block_t const *block,
 		    uint8_t hash_buf[SHA256_DIGEST_LENGTH]);
 
 /* blockchain_serialize.c */
+void initialize_header(block_header_t *header);
+void serialize_transactions(llist_t *transactions, FILE *file);
 int blockchain_serialize(blockchain_t const *blockchain, char const *path);
 
 /* blockchain_deserialize.c */
+int validate_header(block_header_t *hdr);
+void load_transactions(block_t *blk, FILE *file);
 blockchain_t *blockchain_deserialize(char const *path);
 
 /* block_is_valid.c */
+int validate_transactions(block_t const *block, llist_t *all_unspent);
 int block_is_valid(block_t const *block, block_t const *prev_block,
 		   llist_t *all_unspent);
 
