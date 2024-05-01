@@ -23,7 +23,7 @@
 #define GENESIS_DATA "Holberton School"
 #define GENESIS_TIME 1537578000
 #define HBLK_MAGIC "HBLK"
-#define HBLK_VERSION "0.1"
+#define HBLK_VERSION "0.2"
 #define LSB 1
 #define MSB 2
 #define HBLK_ENDIAN LSB
