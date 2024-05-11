@@ -78,7 +78,7 @@ static unspent_tx_out_t *update_utxo(state_t *state, block_t *block,
  */
 
 static int cli_mine_process(state_t *state, block_t *block,
-		     block_t *prev_block, transaction_t *coinbase_tx)
+			    block_t *prev_block, transaction_t *coinbase_tx)
 {
 	unspent_tx_out_t *utxo = NULL;
 

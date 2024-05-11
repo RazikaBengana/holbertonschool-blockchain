@@ -16,7 +16,8 @@
  *         - otherwise, returns EXIT_FAILURE
  */
 
-static int handle_transaction_send(state_t *state, uint32_t amount, uint8_t pub[EC_PUB_LEN])
+static int handle_transaction_send(state_t *state, uint32_t amount,
+				   uint8_t pub[EC_PUB_LEN])
 {
 	EC_KEY *receiver = NULL;
 	transaction_t *tx = NULL;
