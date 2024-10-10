@@ -185,7 +185,7 @@ For details on installing the above dependencies, defer to your **distro's packa
 <br>
 <br>
 
-### Build Instructions:
+### Build instructions:
 
 <br>
 <br>
