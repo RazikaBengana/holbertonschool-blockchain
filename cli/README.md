@@ -25,7 +25,7 @@
 <a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#memo-learning-objectives">Learning Objectives</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#computer-requirements">Requirements</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#package-installation">Installation</a> •
-<a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#keyboard-basic-usage">Basic usage</a> •
+<a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#keyboard-basic-usage">Basic Usage</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#bust_in_silhouette-authors">Authors</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-blockchain/tree/main/cli#octocat-license">License</a>
 </h3>
@@ -80,7 +80,7 @@ This project has been created by **[Holberton School](https://www.holbertonschoo
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
-## :memo: Learning objectives
+## :memo: Learning Objectives
 
 <br>
 
@@ -320,7 +320,7 @@ LD_LIBRARY_PATH="${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}}:/usr/local/lib" cli/cli
 
 <br>
 
-**${\color{blue}Razika \space Bengana}$**
+<img src="https://img.shields.io/badge/Razika%20Bengana-darkblue" alt="Razika Bengana" width="120">
 
 <br>
 <br>

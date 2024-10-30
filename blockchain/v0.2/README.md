@@ -74,7 +74,7 @@ This project has been created by **[Holberton School](https://www.holbertonschoo
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
-## :memo: Learning objectives
+## :memo: Learning Objectives
 
 <br>
 
@@ -152,15 +152,15 @@ General
 
 - Create the folder `blockchain/v0.2/` and copy the following files in it:
 
-    - blockchain/v0.1/blockchain_create.c
-    - blockchain/v0.1/blockchain_deserialize.c
-    - blockchain/v0.1/blockchain_destroy.c
-    - blockchain/v0.1/blockchain.h
-    - blockchain/v0.1/blockchain_serialize.c
-    - blockchain/v0.1/block_create.c
-    - blockchain/v0.1/block_destroy.c
-    - blockchain/v0.1/block_hash.c
-    - blockchain/v0.1/block_is_valid.c
+    - `blockchain/v0.1/blockchain_create.c`
+    - `blockchain/v0.1/blockchain_deserialize.c`
+    - `blockchain/v0.1/blockchain_destroy.c`
+    - `blockchain/v0.1/blockchain.h`
+    - `blockchain/v0.1/blockchain_serialize.c`
+    - `blockchain/v0.1/block_create.c`
+    - `blockchain/v0.1/block_destroy.c`
+    - `blockchain/v0.1/block_hash.c`
+    - `blockchain/v0.1/block_is_valid.c`
 
 - Modify your code so when a Blockchain is serialized, the version stored is `0.2`
 
@@ -266,7 +266,7 @@ holbertonschool-blockchain
 
 <br>
 
-**${\color{blue}Razika \space Bengana}$**
+<img src="https://img.shields.io/badge/Razika%20Bengana-darkblue" alt="Razika Bengana" width="120">
 
 <br>
 <br>
